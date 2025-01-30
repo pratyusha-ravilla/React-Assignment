@@ -1,16 +1,18 @@
 # React-Assignment
-list-management-app/
-│── src/
-│   ├── components/
-│   │   ├── ListContainer.js
-│   │   ├── ListItem.js
-│   │   ├── ListManagement.js
-│   │   ├── ListCreation.js
-│   ├── services/
-│   │   ├── api.js
-│   ├── App.js
-│   ├── index.js
-│   ├── App.css
-│── public/
-│── package.json
-│── README.md
+Assignment
+-- src folder
+  -- components/
+    -> ListContainer.js
+    -> ListContainer.css
+    -> ListItem.js
+    -> ListItem.css
+    -> ListManagement.js
+    -> ListManagement.css
+    -> ListCreation.js
+    -> ListCreation.css
+  -- services/
+    -> api.js
+-- App.js
+-- App.css
+
+
