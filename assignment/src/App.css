@@ -1,0 +1,108 @@
+
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+div {
+  padding: 20px;
+  border: 2px solid #f1f1f1;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Styling for ListContainer */
+.list-containers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  ul {
+    padding-left: 10px;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  .list-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Large screen adjustments */
+@media screen and (min-width: 768px) {
+  .list-containers {
+    flex-direction: row;
+  }
+}
+.list-columns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 20px;
+}

@@ -1,0 +1,44 @@
+
+.list-management-container {
+  text-align: center;
+}
+
+.lists-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.middle-list {
+  background-color: #f1f1f1;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #f8f9fa;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+} 
+
+
+
+
